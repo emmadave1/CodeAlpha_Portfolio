@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal portfolio of Emma Dave, also known as Alamzy, a frontend developer passionate about building responsive web experiences.">
+    <title>Alamzy | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Alamzy<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-button">Let's Talk <span>↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+
+                    <h1>Building digital<br>experiences that <span>matter.</span></h1>
+
+                    <p class="hero-description">
+                        Hi, I'm <strong>Emma Dave</strong>, popularly known as Alamzy.
+                        I'm a frontend developer passionate about creating responsive,
+                        accessible, and user-friendly web experiences.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="button button-primary">Explore My Work <span>↗</span></a>
+                        <a href="#contact" class="button button-secondary">Get in Touch</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/emmadave1" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        <a href="https://linkedin.com/in/emma-dave-ab96472a8" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                        <a href="https://x.com/alamzy001" target="_blank" rel="noopener noreferrer">X ↗</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="visual-glow"></div>
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <div class="window-dots"><span></span><span></span><span></span></div>
+                            <span>developer.js</span>
+                        </div>
+                        <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Emma Dave"</span>,
+  alias: <span class="code-green">"Alamzy"</span>,
+  role: <span class="code-green">"Frontend Developer"</span>,
+  mindset: <span class="code-green">"Always learning"</span>,
+
+  <span class="code-blue">build</span>() {
+    <span class="code-purple">return</span> <span class="code-green">"Ideas into reality"</span>;
+  }
+};</code></pre>
+                        <div class="code-card-footer">
+                            <span class="status-dot"></span>
+                            <span>Ready to build something great</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-badge badge-top">{"</>"} Clean Code</div>
+                    <div class="floating-badge badge-bottom"> Always Learning</div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">SCROLL TO EXPLORE <span>↓</span></a>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">01 / ABOUT ME</p>
+                    <h2>Curious mind.<br><span>Builder's spirit.</span></h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-copy reveal">
+                        <p class="large-copy">
+                            I enjoy turning ideas into useful digital experiences,
+                            one project and one line of code at a time.
+                        </p>
+                        <p>
+                            I'm a frontend developer based in Port Harcourt, Nigeria,
+                            focused on improving my skills in web development and
+                            understanding how great digital products are built.
+                        </p>
+                        <p>
+                            I learn by building projects, exploring new technologies,
+                            collaborating with others, and continuously improving my
+                            approach to writing code.
+                        </p>
+                        <a href="#contact" class="text-link">Let's connect <span>↗</span></a>
+                    </div>
+
+                    <div class="about-cards reveal">
+                        <article class="info-card">
+                            <span class="card-icon">⌘</span>
+                            <h3>Problem Solver</h3>
+                            <p>I enjoy breaking down challenges into manageable steps.</p>
+                        </article>
+                        <article class="info-card">
+                            <span class="card-icon">✳</span>
+                            <h3>Continuous Learner</h3>
+                            <p>Every project is an opportunity to learn something new.</p>
+                        </article>
+                        <article class="info-card">
+                            <span class="card-icon">◈</span>
+                            <h3>Detail Oriented</h3>
+                            <p>I care about usability, responsive layouts, and clean interfaces.</p>
+                        </article>
+                        <article class="info-card">
+                            <span class="card-icon">↗</span>
+                            <h3>Growth Mindset</h3>
+                            <p>I'm committed to growing through practice and collaboration.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">02 / MY TOOLKIT</p>
+                    <h2>Technologies I <span>work with.</span></h2>
+                    <p class="section-description">
+                        The tools and technologies I use in my frontend development work.
+                    </p>
+                </div>
+
+                <div class="skills-grid reveal">
+                    <article class="skill-card">
+                        <span class="skill-symbol html-symbol">5</span>
+                        <h3>HTML5</h3>
+                        <p>Semantic structure</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-symbol css-symbol">3</span>
+                        <h3>CSS3</h3>
+                        <p>Responsive styling</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-symbol js-symbol">JS</span>
+                        <h3>JavaScript</h3>
+                        <p>Interactive interfaces</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-symbol react-symbol">⚛</span>
+                        <h3>React</h3>
+                        <p>Component-based UI</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-symbol git-symbol">⌘</span>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-symbol api-symbol">{ }</span>
+                        <h3>REST APIs</h3>
+                        <p>Working with web services</p>
+                    </article>
+                </div>
+
+                <p class="skills-note">
+                    I'm continuously improving my skills and expanding my understanding
+                    of modern web development.
+                </p>
+            </div>
+        </section>
+
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">03 / SELECTED WORK</p>
+                    <h2>Things I've <span>been building.</span></h2>
+                    <p class="section-description">
+                        A selection of projects I've worked on and learning projects
+                        I've built along the way.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card project-featured reveal">
+                        <div class="project-preview preview-echoes">
+                            <span class="preview-label">WEB EXPERIENCE</span>
+                            <div class="preview-content">
+                                <span class="preview-mark">E.</span>
+                                <h3>ECHOES</h3>
+                                <p>A 3D-inspired web experience</p>
+                            </div>
+                            <span class="preview-number">01</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta"><span>01 / FEATURED</span><span>Web Development</span></div>
+                            <h3>ECHOES</h3>
+                            <p>A creative web experience exploring immersive visual presentation and interactive design.</p>
+                            <div class="tag-list"><span>Web Design</span><span>Frontend</span><span>3D Experience</span></div>
+                            <a href="https://echoes-lost-worlds.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link">View Project <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-preview preview-lnex">
+                            <span class="preview-label">STUDENT PLATFORM</span>
+                            <div class="preview-content">
+                                <span class="preview-mark">L</span>
+                                <h3>LNEX</h3>
+                                <p>Student life, connected</p>
+                            </div>
+                            <span class="preview-number">02</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta"><span>02 / COLLABORATION</span><span>Student Platform</span></div>
+                            <h3>LNEX Student App</h3>
+                            <p>A student-focused platform. My contribution has been in frontend development as part of the team.</p>
+                            <div class="tag-list"><span>Frontend</span><span>Product Development</span></div>
+                            <a href="https://lnexstudentapp.online" target="_blank" rel="noopener noreferrer" class="project-link">View Project <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-preview preview-gallery">
+                            <span class="preview-label">INTERNSHIP PROJECT</span>
+                            <div class="gallery-shapes"><span></span><span></span><span></span><span></span></div>
+                            <span class="preview-number">03</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta"><span>03 / CODEALPHA</span><span>HTML, CSS & JS</span></div>
+                            <h3>Image Gallery</h3>
+                            <p>A responsive image gallery with interactive viewing and navigation features.</p>
+                            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <a href="https://github.com/emmadave1/CodeAlpha_ImageGallery" target="_blank" rel="noopener noreferrer" class="project-link">View Source Code <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-preview preview-calculator">
+                            <span class="preview-label">INTERNSHIP PROJECT</span>
+                            <div class="calculator-preview">
+                                <span>128 × 4</span>
+                                <strong>512</strong>
+                                <div class="mini-keys"><i>AC</i><i>÷</i><i>×</i><i>−</i></div>
+                            </div>
+                            <span class="preview-number">04</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta"><span>04 / CODEALPHA</span><span>HTML, CSS & JS</span></div>
+                            <h3>Calculator</h3>
+                            <p>A responsive calculator featuring arithmetic operations, keyboard input, and calculation history.</p>
+                            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <a href="https://github.com/emmadave1/CodeAlpha_Calculator" target="_blank" rel="noopener noreferrer" class="project-link">View Source Code <span>↗</span></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-footer reveal">
+                    <p>More projects and experiments are on the way.</p>
+                    <a href="https://github.com/emmadave1" target="_blank" rel="noopener noreferrer" class="button button-secondary">Explore GitHub <span>↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container contact-container reveal">
+                <p class="eyebrow">04 / GET IN TOUCH</p>
+                <h2>Have an idea?<br><span>Let's build it.</span></h2>
+                <p class="contact-description">
+                    I'm open to meaningful collaborations, learning opportunities,
+                    and conversations about building useful digital products.
+                </p>
+
+                <a href="https://github.com/emmadave1" target="_blank" rel="noopener noreferrer" class="button button-primary">Connect on GitHub <span>↗</span></a>
+
+                <div class="contact-links">
+                    <a href="https://linkedin.com/in/emma-dave-ab96472a8" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                    <a href="https://x.com/alamzy001" target="_blank" rel="noopener noreferrer">X ↗</a>
+                    <a href="https://github.com/emmadave1" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">Alamzy<span>.</span></a>
+            <p>Designed and built with curiosity by Emma Dave.</p>
+            <p>© <span id="year"></span> Alamzy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
